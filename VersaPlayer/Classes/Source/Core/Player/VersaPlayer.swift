@@ -152,7 +152,7 @@ extension VersaPlayer {
       }
       addPeriodicTimeObserver(
         forInterval: CMTime(
-          seconds: 1,
+          seconds: 0.5,
           preferredTimescale: CMTimeScale(NSEC_PER_SEC)
         ),
         queue: DispatchQueue.main) { [weak self] (time) in
